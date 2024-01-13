@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "lnn3333.github.io",
+			"path": "."
+		},
+		{
+			"name": "assets",
+			"path": "../Documents/GitHub/my_portfolio/assets"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "lnn3333.github.io"
+	}
+}

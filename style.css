@@ -9,7 +9,7 @@
 
 body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
-    background-color: rgba(49, 112, 49, 0.47);
+    background-color: rgba(81, 178, 181, 0.548);
 }
 
 html{
@@ -147,7 +147,7 @@ section {
 #profile {
     display: flex;
     justify-content: center;
-    gap: 5rem;
+    gap: 2.5rem;
     height: 60vh;
 }
 
@@ -156,11 +156,13 @@ section {
     height: 400px;
     width: 400px;
     margin: auto 0;
+    border-radius: 2rem;
 }
 
 .section_text {
     align-self: center;
     text-align: center;
+    width: 120rem;
 }
 
 .section_text p{
@@ -198,7 +200,7 @@ section {
 .btn-container {
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 1rem;  
 }
 
 .btn {
@@ -226,6 +228,7 @@ section {
     background: rgb(53,53,53);
     color: white;
 }
+
 
 .btn-color-1:hover{
     background: rgb(0,0,0);
@@ -259,12 +262,15 @@ section {
     justify-content: center;
     flex-direction: column;
     height: 50vh;
+    margin: 1 rem;
+    width: 20px;
 }
 
 .about-containers, 
 .about-details-containers
  {
     display: flex;
+    
 }
 
 .text-container {
@@ -274,10 +280,15 @@ section {
     font-style: italic;
     color: rgb(7, 7, 7);
     margin-top: 4rem;
+    margin-bottom: 1rem;
+    margin-left: 100px;
 
 }
 .about-pic {
     border-radius: 2rem;
+    width: 280%;
+    height: 60%;
+    
 }
 
 .arrow {
@@ -293,17 +304,20 @@ section {
     border-radius: 2rem;
     border: rgb(53,53,53) 0.1rem solid;
     border-color: rgb(163,163,163);
-    text-align: center;
+    width: 100%;
 }
 
 .section-container {
-    gap: 4rem;
-    height: 80%;
+    gap: 3rem;
+    height: 100%;
+    text-align: center;
+    
+
 }
 .section_pic-container {
-    height: 400px;
-    width: 400px;
-    margin: auto 0;
+    height: 500px;
+    width: 500px;
+    margin-right:200px;
 }
 
 /* EXPERIENCE */
@@ -317,7 +331,8 @@ section {
     color: rgb(85,85,85);
     font-weight: 500;
     font-size: 1.5rem;
-    margin-top: 0.6rem;
+    margin-top: 1.2rem;
+    
 }
 
 .experience-detail-container {
@@ -334,7 +349,7 @@ section {
     gap: 2.5rem;
     justify-content: space-around;
     margin-top: 1.5rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1.2rem;
     text-align: center;
 }
 
